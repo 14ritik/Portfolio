@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>
+   <title>
+      Hackathon
+   </title>
+   <script src="https://kit.fontawesome.com/b0f46e87ab.js" crossorigin="anonymous"></script>
+   
+   <style>
+    *{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+   body{
+     background-color:rgba(255, 255, 255, 0.808);
+}
+#container{
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+   
+}
+.header{
+    background-color: rgba(87, 197, 245, 0.881);
+    height:70px;
+    padding:10px 10%;
+    }
+ .header h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:aliceblue;
+    position:center;
+    text-align: center;
+ } 
+ .Menu{
+    background-color: rgb(243, 243, 133);
+    height:35px;
+    margin-top: 0px;
+ } 
+ 
+    
+ 
+ .Menu nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:4px;
+    list-style: none;
+ } 
+ .Menu nav ul a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-size: 15px;
+    padding:5px;
+ }
+ .slideshow{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+ }
+ .project-container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+ }
+ .slideshow img{
+    width:250px;
+    height:150px;
+    border-radius: 10px;
+    display:flex;
+ }
+ .product{
+    display:flex;
+ }
+ .product img{
+    margin-top:50px;
+    margin-left: 60px;
+    margin-right: 50px;
+    display:flex;
+    width:200px;
+    height:300px;
+ }
+ .h41{
+    display: flex;
+    text-align: center;
+    margin-top:50px;
+    height:50px;
+    width:auto;
+ }
+ .mar{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: rgb(87, 174, 145);
+    
+ }
+ .foot{
+    background-color: rgba(87, 197, 245, 0.881);
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    padding:20px;
+    margin-top:50px;
+ }
+ .foot p{
+    color:rgb(41, 40, 38);
+    font-weight: bold;
+    
+    
+ }
+ .foot a{
+    text-decoration: none;
+    color:rgb(41, 40, 38);
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: space-between;
+ }
+ select{
+   padding:2px 4px;
+   border:none;
+    margin-top: 2px;
+    background-color:rgb(243, 243, 133) ;
+    text-decoration: none;
+    font-weight: bold;
+   color:black;
+ }
+ select:focus{
+   outline:none;
+ }
+ option{
+   font-weight: bold;
+   color:black;
+   background-color: aliceblue;
+ }
+ .product-sale{
+   text-align: center;
+   color:black;
+ }
+ .product-sale h4{
+   padding:10px;
+ }
+ 
+   </style>
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+ >
+</head>
+<body>
+    <div id="container">
+       <div class="header">
+           <h1>Project</h1>
+       </div>
+       <div class="Menu">
+        <nav>
+           <ul>
+             <li><a href="">Home</a></li>
+             <li><a href="">About</a></li>
+             <select name="select">
+               <option>Menu option 3</option>
+               <option name="Tshirt">Tshirt</option>
+               <option>Shirt</option>
+               <option>Jeans</option>
+               <option>Cargo</option>
+             </select>
+             <select name="select">
+               <option>Menu option 4</option>
+               <option name="Tshirt">Tshirt</option>
+               <option>Shirt</option>
+               <option>Jeans</option>
+               <option>Cargo</option>
+             </select>
+             <select name="select">
+               <option>Menu option 5</option>
+               <option name="Tshirt">Tshirt</option>
+               <option>Shirt</option>
+               <option>Jeans</option>
+               <option>Cargo</option>
+             </select>
+             <li><a href="">Login/Register</a></li>
+           </ul>
+        </nav>
+       </div>
+       <div class="slideshow">
+        
+          <img src="sl1.jpg">
+          <img src="sl2.jpg"> 
+          <img src="sl3.jpg">
+          <img src="sl4.jpg">
+         
+      </div>
+        <div class="h41"><marquee class="mar" >Here are some products!</marquee></div>
+        <div class="product">
+           <div class="product-sale">
+           <img src="ad1.jpg"> 
+              <h4>Kurtis</h4>
+           </div> 
+           <div class="product-sale">
+            <img src="ad2.jpg"> 
+               <h4>Crop top</h4>
+            </div> 
+            <div class="product-sale">
+               <img src="ad3.jpg"> 
+                  <h4>top</h4>
+            </div> 
+            <div class="product-sale">
+                  <img src="ad4.jpg"> 
+                     <h4>Lehanga</h4>
+            </div> 
+           
+        </div>
+        <div class="foot">
+            <p>22A/4A Rason Vihar Ahmedabad<br>Gujarat 311022</p>
+            <p><a href="">Complaint</a></p>
+            <p><a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp &nbsp &nbsp
+            <a href=""><i class="fa-brands fa-twitter"></i></a>&nbsp &nbsp &nbsp
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </p>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        let swiper = new Swiper(".project-container", {
+          loop:true,
+          spaceBetween:10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script>
+</body>
+</html>
